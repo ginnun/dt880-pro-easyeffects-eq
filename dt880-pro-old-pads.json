@@ -193,7 +193,19 @@
             "split-channels": false
         },
         "plugins_order": [
-            "equalizer#0"
-        ]
+            "equalizer#0",
+            "autogain#0",
+            "crossfeed#0"
+        ],
+        "autogain#0": {
+            "bypass": false,
+            "output-gain": 0.0,
+            "silence-threshold": -40.0,
+            "target": -18.5
+        },
+        "crossfeed#0": {
+            "bypass": false,
+            "feed": 2.0
+        }
     }
 }

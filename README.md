@@ -34,6 +34,17 @@ The following bands are intended to be adjusted according to your personal taste
 
 ---
 
+## 🔗 Effect Chain
+
+Both presets load the chain **Equalizer → Autogain → Crossfeed**:
+
+* **Autogain**: target **-18.5 LUFS**, silence threshold **-40**, output gain **0 dB**. Brings quiet sources back up after the negative preamp. It applies one broadband gain, so the EQ curve stays intact. Keep output gain at 0 dB; higher values push peaks toward 0 dBFS.
+* **Crossfeed**: feed **2 dB** (mild). Blends a little of each channel into the other for a less "inside the head" stereo image. Remove it if you prefer full separation.
+
+Remove either plugin in EasyEffects if you only want the pure EQ correction.
+
+---
+
 ## 🛠 Technical Recommendations
 
 * **Prevent Clipping**: Both profiles use negative **Preamp Gain** to provide necessary headroom for bass boosts. Use a physical volume knob (e.g., on a **MOTU M4**) to compensate for volume loss instead of increasing digital gain.
